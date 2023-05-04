@@ -42,5 +42,7 @@ class Employee {
     }
 }
 
+const mahi = new Employee('Mahi', 22, 30_000, 'Full-stack Engineer')
 const tushar = new Employee('Tushar', 23, 32_000, 'Video Editor');
 tushar.getDetails()
+mahi.getDetails()
